@@ -1,0 +1,29 @@
+/* h3{ */
+    /* color: cornflowerblue; */
+/* } */
+
+.one{
+    color: crimson;
+}
+
+#one{
+    color: cornflowerblue;
+}
+
+*{
+    background-color: bisque;
+}
+
+a[href^='http']{
+    background-color: palegreen;
+}
+
+a[href$='in']{
+    background-color: olivedrab;
+    color: white;
+}
+
+a[href*='http']{
+    background-color: pink;
+    color: white;
+}

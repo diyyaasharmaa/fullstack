@@ -1,0 +1,19 @@
+/* em- square of the current parent
+rem- square of the root element/parent html  */
+
+
+#parent{
+    background-color: brown;
+    height: 100vh;
+    width: 100vw;
+}
+
+#child{
+    background-color: lightsalmon;
+    height: 50%;
+    width: 50%;
+}
+
+li{
+    font-size: 2rem;
+}
