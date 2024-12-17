@@ -1,0 +1,19 @@
+div p{
+    color: red;
+}
+
+li:nth-of-type(4){
+    color: brown;
+}
+
+div{
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+}
+
+div:hover{
+    background-color: rosybrown;
+    border-radius: 50%;
+    transition: 2s;
+}
