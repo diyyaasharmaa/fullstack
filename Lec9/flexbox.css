@@ -1,0 +1,33 @@
+#main{
+    border: 2px solid;
+    height: 400px;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    /* justify-content: baseline; */
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+
+}
+
+#main div{
+    height: 100px;
+    width: 100px;
+}
+
+#one{
+    background-color: rgb(226, 111, 130);
+}
+
+#two{
+    background-color: rgb(216, 57, 216);
+}
+
+#three{
+    background-color: purple;
+}

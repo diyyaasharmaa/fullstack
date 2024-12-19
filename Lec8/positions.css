@@ -1,0 +1,26 @@
+div{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+
+div:nth-last-of-type(3){
+    background-color: black;
+}
+
+div:nth-last-of-type(2){
+    background-color: goldenrod;
+   /* position: static; */
+   position: relative;
+   /* position: absolute; */
+   /* position: fixed; */
+   /* top: 150px; */
+   /* right: 204px; */
+ }
+
+div:nth-last-of-type(1){
+    background-color: blue;
+    /* position: relative; */
+    /* right: 408px;
+    top: 300px; */
+}

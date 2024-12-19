@@ -1,0 +1,49 @@
+#parent{
+    /* border: 1px solid; */
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    /* border-radius: 20px; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#child2{
+    position: absolute;
+}
+#child img{
+    border-radius: 100%;
+    position: relative;
+    top: 100px;
+    left: 100px ;
+}
+
+#child3{
+    color: red;
+    position: relative;
+    top: 100px ;
+    left: 30px;
+}
+
+#child4{
+    color: black;
+    font-size: larger;
+    position: relative;
+    top: 90px;
+    left: 5px;
+}
+
+#child5{
+    background-color: red;
+    height: 50px;
+    width: 300px;
+    position: relative;
+    top: 95px;
+    
+}
+
+#child6{
+    color: whitesmoke;
+    position: relative;
+    top: 30px;
+    left: 75px;
+}
