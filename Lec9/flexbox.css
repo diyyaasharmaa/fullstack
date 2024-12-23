@@ -22,12 +22,17 @@
 
 #one{
     background-color: rgb(226, 111, 130);
+    /* flex-grow: 1; */
+    /* flex-basis: 200px; */
+    /* flex-shrink: 3; 3x ki speed p size deccrease hoga */
 }
 
 #two{
     background-color: rgb(216, 57, 216);
+    /* flex-grow: 1; */
 }
 
 #three{
     background-color: purple;
+    /* flex-grow: 5; */
 }

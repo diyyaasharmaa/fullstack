@@ -1,0 +1,50 @@
+/* div{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(224, 134, 224);
+    transition: 3s;
+    transition-property: background-color;
+}
+
+div:hover{
+    background-color: rgb(143, 207, 207);
+    border-radius: 50%;
+    
+} */
+
+#main{
+    height: 400px;
+    border: 2px solid;
+    
+}
+#main:hover div{
+    /* margin-left: 1220px; */
+    /* border-radius: 50%; */
+    width: 100vw;
+}
+#main div{
+    height: 100px;
+    width: 100px;
+    transition: 5s;
+}
+/* #maiv div:nth-of-type(1){
+    background-color: rgb(245, 166, 245);
+} */
+
+#main  #one{
+    background-color: pink;
+    transition-timing-function: linear;
+}
+ 
+#main  #two{
+    background-color: plum;
+    transition-timing-function: ease-in;
+}
+#main  #three{
+    background-color: blueviolet;
+    transition-timing-function: ease-out;
+}
+#main  #four{
+    background-color: purple;
+    transition-timing-function: ease-in-out;
+}
