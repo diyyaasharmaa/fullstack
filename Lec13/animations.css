@@ -1,0 +1,30 @@
+div{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(163, 89, 231);
+    animation-name: santa;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+
+@keyframes santa {
+    /* any number of states can be there  */
+    0%{ 
+        background-color: blueviolet;
+    }
+
+    50%{
+        background-color: rgb(109, 25, 189);
+        height: 500px;
+        width: 600px;
+        border-radius: 50%;
+
+    }
+    100%{
+        background-color: rgb(72, 13, 128);
+        height: 100vh;
+        width: 100vw;
+    }
+    
+}

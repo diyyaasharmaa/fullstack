@@ -1,0 +1,23 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    border-radius: 50%;
+    background: linear-gradient(rgb(224, 64, 91), purple);
+    margin: auto;
+    animation-name: ball;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ball {
+    0%{
+        transform: translateY(0px);
+    }
+   
+    100%{
+        transform: translateY(85vh) rotate(360deg);
+    }
+}
