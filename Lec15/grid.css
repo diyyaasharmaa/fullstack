@@ -1,0 +1,22 @@
+#main{
+    border: 3px solid black;
+    height: 90vh;
+    margin: 15px auto;
+    display: grid;
+    /* grid-template-columns: 200px 200px 200px; */
+    grid-template-columns: 200px 200px 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    grid-auto-flow: column;
+    /* grid-auto-rows: 50px; */
+    /* gap: 20px; */
+}
+.one{
+    border: 1px solid blue;
+}
+
+#one{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3 ;
+}

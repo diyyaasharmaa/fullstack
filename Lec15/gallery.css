@@ -1,0 +1,21 @@
+#main{
+    border: 3px solid gray;
+    height: 90vh;
+    width: 800px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px ;
+    grid-template-rows: 192px 192px 192px 192px ;
+    /* grid-auto-flow: column; */
+    /* grid-auto-rows: 70px; */
+    /* gap: 20px; */
+}
+
+.one{
+    border: 1px solid black;
+}
+
+.one:hover{
+    transform: scale(1.1);
+    
+}

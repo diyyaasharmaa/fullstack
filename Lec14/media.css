@@ -1,0 +1,17 @@
+div{
+    height: 100vh;
+    width: 100vw;
+    background-color: brown;
+}
+
+/* @media screen and (min-width:700px){
+    div{
+        background-color: coral;
+    }
+} */
+
+@media screen and (max-width:700px){
+    div{
+        background-color: rgb(221, 71, 101);
+    }
+}
