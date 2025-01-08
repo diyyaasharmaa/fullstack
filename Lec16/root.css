@@ -1,0 +1,11 @@
+:root{
+    --bg-pink:pink;
+    --bg-red:red;
+    --size:30px
+}
+
+article h1{
+    background-color: var(--bg-pink);
+    font-size: var(--size);
+
+}

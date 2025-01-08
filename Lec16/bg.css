@@ -1,0 +1,23 @@
+.image{
+    height: 500px;
+    width: 600px;
+    margin: 50px auto;
+    border: 2px solid;
+    background-size: 20% 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: contain; */
+    background-size: cover;
+    background: linear-gradient(black, blue);
+    /* background: linear-gradient(to right, black, blue); */
+    /* background: linear-gradient(to bottom, black, blue); */
+    /* background: radial-gradient( black, blue); */
+    /* background: radial-gradient(ellipse, black, blue,cyan); */
+    /* background: radial-gradient(circle, black, blue,cyan); */
+    /* background: conic-gradient( from 45deg, black, blue,cyan); */
+    /* background: conic-gradient( from 0deg at 50% 50%, black, blue,cyan); */ 
+    /* background: linear-gradient( to right,rgba(255,0,0,0.5), transparent); */
+    /* background: repeating-linear-gradient( to right,blue,black 10%,cyan 20%); */
+    /* background-image: url(https://plus.unsplash.com/premium_photo-1736246143958-ca36c5cf29bd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMHx8fGVufDB8fHx8fA%3D%3D); */
+    /* background-image: url(https://images.unsplash.com/photo-1736244032196-5d604770aba8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D); */
+}
