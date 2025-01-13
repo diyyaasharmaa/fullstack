@@ -15,7 +15,6 @@ div:hover{
 #main{
     height: 400px;
     border: 2px solid;
-    
 }
 #main:hover div{
     /* margin-left: 1220px; */
@@ -25,7 +24,8 @@ div:hover{
 #main div{
     height: 100px;
     width: 100px;
-    transition: 5s;
+    /* border-radius: 50%; */
+    transition: 3s;
 }
 /* #maiv div:nth-of-type(1){
     background-color: rgb(245, 166, 245);
