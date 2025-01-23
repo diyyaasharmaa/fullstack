@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // PROMISE
+
+        // let promise= new Promise((res,rej)=>{
+        //     let a= false
+        //     if(a){
+        //         res()
+        //     }
+        //     else{
+        //         rej()
+        //     }
+
+        //     // rej()
+        //     // res()
+        // })
+
+        // console.log(promise,'hehehee');
+
+        // let p= new Promise((res,rej)=>{
+        //     // rej()
+        //     res()
+        // })
+
+        // p.then(()=>{
+        //     console.log('helloo');  
+
+        // }).catch(()=>{
+        //     console.log('hiii');
+            
+        // })
+
+
+        function step1(){
+        return new Promise((res,rej)=>{
+            setTimeout(()=>{
+                res('selectttt')
+                console.log('selecttttttt');
+                
+
+            },5000)
+
+        })
+    }
+    function step2(){
+        return new Promise((res,rej)=>{
+            setTimeout(()=>{
+                res('filtredddddd')
+                console.log('filtredddddd');
+                
+
+            },2000)
+
+        })
+    }
+
+     async function call(){
+        await step1()
+    
+        await  step2()
+
+    }
+    call()
+
+
+
+    // step1().then((img)=>{
+    //     console.log(img);
+    //     return step2().then((fImg)=>{
+    //         console.log(fImg);
+            
+
+    //     })
+    // })
+        
+
+
+
+
+    </script>
+</body>
+</html>
