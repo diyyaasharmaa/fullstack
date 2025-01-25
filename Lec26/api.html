@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // API- Applications Programming Interface
+
+        let apiLink= "https://dummyjson.com/recipes"   
+        let data= fetch(apiLink)
+        // console.log(data,'dataaa');
+        data.then((res)=>{
+            // console.log(res,'response');
+            return res.json()
+        }).then((d)=>{
+            // console.log(d.recipes[0].name,'nameee');
+            let filterData= d.recipes.filter((apiData)=>{
+                // console.log(apiData);
+                return apiData.cuisine=='Indian'
+                
+            })
+            console.log(filterData,'cuisine');
+            
+            
+        })
+        
+
+
+
+    </script>
+    
+</body>
+</html>
