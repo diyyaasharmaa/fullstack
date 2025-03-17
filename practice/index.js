@@ -61,12 +61,80 @@
 //while
 
 // while(condition){}
+// method1
+// let num=1
+// while(num<10){
+//     console.log(num, "*", (10-num));
+// num++;
+// }
 
-let num=1
-while(num<10){
-    console.log(num, "*", (10-num));
-num++;
-}
+// method2
+// let num1=1
+// let num2=9
+// while(num1<=9 && num2>=1){
+//     console.log(num1, '*', num2);
+//     num1++;
+//     num2--;
+
+// }
+
+// printing prime numbers
+
+// for(let i=1; i<=100; i++){
+//     const number=i
+//     let isPrime= true
+
+//     for(let j=2; j<number; j++){
+//         if(j%i===0){
+//             isPrime=false           
+//         }
+//         }
+//     if(isPrime){
+//         console.log('prime number', number);
+        
+//     }    
+
+// }
+
+// for(let i=1; i<=5; i++){
+// console.log(i, "---");
+// const number = i
+// let isPrime = true
+// for(let j=2; j<number; j++){
+//   if(number % j === 0) {
+//     isPrime = false
+//   }
+// }
+// if(isPrime) {
+//   console.log("Prime number", number);
+// }
+// }
+
+// -> given num=1 incre till 100
+//-> if num div by 3 multiply by 3 else if by 5 multiply by 5
+
+// let num=1
+// while(num<=100){
+//     if(num%3===0){
+//         console.log(num, num*3);       
+//     }
+
+//     else if(num%5===0){
+//         console.log(num, num*5);
+        
+//     }
+//     num++;
+
+// }
+
+
+
+
+
+
+
+
+
 
 
 
